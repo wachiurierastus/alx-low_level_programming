@@ -3,8 +3,10 @@
 #include <time.h> 
 
 /* *
- * main - entry point 
+ * main - entry point
+ *
  * Description : prints "is positive or is negative or is zero"
+ * 
  * Return: 0
  */
 int main(void)
