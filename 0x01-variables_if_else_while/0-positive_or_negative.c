@@ -1,10 +1,10 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#include <stdio.h> 
+#include <time.h> 
 
 /* *
  * main - entry point 
- * Description : is positive or is negative or is zero
+ * Description : prints "is positive or is negative or is zero"
  * Return: 0
  */
 int main(void)
