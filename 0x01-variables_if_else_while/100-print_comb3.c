@@ -1,24 +1,29 @@
 #include <stdio.h>
 
 /**
- * main - Entry point for writing all numbers between 0 and 100,
+ * main - prints a list of double didgits
  *
- * Return: Always 0 (Success)
- */
+ * Description: digits should not be repeated twice
+ * Return: Always(0) Success
+*/
+
 int main(void)
 {
-	int first;
-	int second;
+	int i, j;
 
-	for (first = 0; first <= 9; first++)
+	for (i = 48; i < 58; i++)
 	{
-		for (second = 0; second <= 9; second++)
+		for (j = 48; j < 58; j++)
 		{
-			putchar(first + '0');
-			putchar(second + '0');
-			if (first == 9 && second == 9)
+			if (i == j)
 			{
-			break;
+				continue;
+			}
+			putchar(i);
+			putchar(j);
+			if (i == 56 && j == 57)
+			{
+				break;
 			}
 			else
 			{
@@ -28,5 +33,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
