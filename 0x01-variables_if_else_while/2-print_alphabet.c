@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * Main -Entry point for writing the lowercase alphabets
  *
  * Description - prints"abcdefghijklmnopqrstuvwxyz"
