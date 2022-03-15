@@ -5,7 +5,7 @@
  * @n: input
  * @c: input
  *
- * Return - int
+ * Return: int
  */
 int add(int n, int c)
 {
