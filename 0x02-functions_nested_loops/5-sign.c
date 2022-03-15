@@ -20,12 +20,11 @@ int print_sign(int n)
 		_putchar('0');
 		j = 0;
 	}
-	else if (n > 0)
+	else 
 	{
 		_putchar('+');
 		j = 1;
 	}
-	else 
-		return (j);
+
 	return (j);
 }
