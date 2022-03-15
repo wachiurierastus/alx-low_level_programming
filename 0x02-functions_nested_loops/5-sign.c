@@ -20,7 +20,7 @@ int print_sign(int n)
 		_putchar('0');
 		j = 0;
 	}
-	else 
+	else
 	{
 		_putchar('+');
 		j = 1;
