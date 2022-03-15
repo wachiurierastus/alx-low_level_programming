@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - prints all characters
+ * print_alphabet_x10 - prints all characters for 10 lines
  *Description: prints all lowercase char
  *
  * Return : void
