@@ -1,21 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: o - Success
- * prints _putchar plus a new line
+ * main - Print "Holberton" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
 int main(void)
 {
-	int i;
-	char p[] = "_putchar";
+	int c = 0;
 
-	for (i = 0; i < 9; i++)
+	char holberton[10] = "_putchar\n";
+
+	while (c < 9)
 	{
-		putchar(p[i]);
+		_putchar(holberton[c]);
+		c++;
 	}
-	putchar('\n');
 	return (0);
-
 }
+
