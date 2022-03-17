@@ -15,6 +15,7 @@ int main(void)
 		_putchar(holberton[c]);
 		c++;
 	}
+	_putchar(10);
 	return (0);
 }
 
