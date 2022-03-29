@@ -1,1 +1,0 @@
-Getting my feet wet in C programming.

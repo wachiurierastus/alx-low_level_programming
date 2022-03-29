@@ -1,1 +1,0 @@
-My first flurry into C programming.
