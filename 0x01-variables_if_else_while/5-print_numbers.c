@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Entry point for writing entire base10 single digits
+ * main - Prints the numbers since 0 to 9
  *
- * Return: Always 0 (Success)
- */
+ * Return: Always (Success)
+ **/
 int main(void)
 {
-	int integer;
+	char n;
 
-	for (integer = 0 ; integer < 10 ; integer++)
+	for (n = '0'; n <= '9'; n++)
 	{
-		printf("%d", integer);
+		putchar(n);
 	}
+
 	putchar('\n');
+
 	return (0);
 }

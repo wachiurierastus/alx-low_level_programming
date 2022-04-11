@@ -1,2 +1,1 @@
-#alx-low_level_programming
-CISFUN
+Intro to C  ProgrammingC

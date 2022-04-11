@@ -1,1 +1,1 @@
-Added c-pointers and arrays.
+more on pointers

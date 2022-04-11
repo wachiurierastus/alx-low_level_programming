@@ -1,37 +1,32 @@
 #include <stdio.h>
 
 /**
- * main - prints a list of double didgits
+ * main - Prints combination of numbers
  *
- * Description: digits should not be repeated twice
- * Return: Always(0) Success
-*/
-
+ * Return: Always (Success)
+ **/
 int main(void)
 {
-	int i, j;
+	int c, i;
 
-	for (i = 48; i < 58; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (j = 48; j < 58; j++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			if (i == j)
+			if (c < i)
 			{
-				continue;
-			}
-			putchar(i);
-			putchar(j);
-			if (i == 56 && j == 57)
-			{
-				break;
-			}
-			else
-			{
-				putchar(',');
-				putchar(' ');
+				putchar(c);
+				putchar(i);
+
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
+
 	putchar('\n');
 
 	return (0);

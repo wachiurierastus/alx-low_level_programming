@@ -1,24 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - Entry point for writing all alphabets
+ * main - Prints the alphabetic in lower and upper case
  *
- * Description - Have a for loop for both.
- *
- * Return: Always 0 (Success)
- */
+ * Return: Always (Success)
+ **/
 int main(void)
 {
-	char character;
+		char c;
 
-	for (character = 'a' ; character <= 'z' ; character++)
-	{
-		putchar(character);
-	}
-	for (character = 'A' ; character <= 'Z' ; character++)
-	{
-		putchar(character);
-	}
-	putchar('\n');
-	return (0);
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			putchar(c);
+		}
+
+		for (c = 'A'; c <= 'Z'; c++)
+		{
+			putchar(c);
+		}
+
+		putchar('\n');
+
+		return (0);
 }
