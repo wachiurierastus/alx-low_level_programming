@@ -14,8 +14,7 @@ void *malloc_checked(unsigned int b)
 	ptr = malloc(b);
 	/*if malloc doesn't create memory*/
 	if (ptr == NULL)
-	{
-		
+	{		
 		exit(98);/*i.e: end the program with status value 98*/
 	}
 	return (ptr);/*ptr is the void pointer*/
